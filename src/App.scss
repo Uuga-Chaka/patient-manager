@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: row;
+
+  .editing {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+  }
+}

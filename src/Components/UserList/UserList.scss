@@ -1,0 +1,43 @@
+.menu-list {
+    display: flex;
+    flex-direction: column;
+
+    .menu-patient {
+        display: flex;
+        flex-direction: column;
+
+        .menu-userdata {
+            border-radius: 4px;
+            background-color: white;
+            padding: 8px;
+            margin: 4px 4px 0 4px;
+            box-shadow: 0 4px 8px rgb(208, 208, 208);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .arrow{
+                transform: rotate(225deg);
+                border-top: 3px solid #D9D9D9;
+                border-left: 3px solid #D9D9D9;
+                border-right: 3px solid transparent;
+                border-bottom: 3px solid transparent;
+            }
+
+            .data {
+                h3 {
+                    color: #3F4F58;
+                    font-weight: 900;
+                    font-size: 14px;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 11px;
+                    margin: 0;
+                    color: #B3CFE2;
+                }
+            }
+        }
+    }
+}

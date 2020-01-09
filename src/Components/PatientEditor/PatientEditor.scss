@@ -1,0 +1,110 @@
+.editor {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+    .editor-personal-data {
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px 0;
+
+        input,
+        select {
+            background: none;
+            border: none;
+            border-radius: 4px;
+            padding: 2px;
+            margin: 2px;
+            border: 1px solid transparent;
+            outline: none;
+            color: #3F4F58;
+
+            &:hover {
+                box-sizing: border-box;
+                border: 1px solid rgba(128, 128, 128, 0.3);
+            }
+
+        }
+
+        ::placeholder {
+            color: rgb(186, 186, 186);
+        }
+
+        .id-value {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #nombre {
+            font-size: 18px;
+            font-weight: 900;
+            outline: none;
+        }
+    }
+
+    .editor-diagnostico {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: row;
+
+        .editor-history {
+            height: 100%;
+            flex-basis: 60%;
+
+            textarea {
+                box-sizing: border-box;
+                border: none;
+                border-radius: 4px 4px 0 0;
+                resize: none;
+                width: 100%;
+                padding: 14px;
+                height: 100%;
+                outline: none;
+            }
+        }
+
+        .editor-sesions {
+            flex-basis: 40%;
+            box-sizing: border-box;
+
+            .editor-sintoms {
+                border-bottom: 1px solid #B3CFE2;
+                box-sizing: border-box;
+                padding: 4px;
+                margin: 4px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .editor-sintom {
+                    border-radius: 100px;
+                    background-color: green;
+                    padding: 2px 8px;
+
+                    p {
+                        color: white;
+                        display: inline;
+                        font-size: 13px;
+                    }
+
+                    .editor-sintom-tag {
+                        margin-right: 20px;
+                    }
+
+                    .editor-sintom-id {
+                        color: rgba(255, 255, 255, 0.537);
+                    }
+                }
+
+            }
+
+            .editor-meeting-quantity {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}

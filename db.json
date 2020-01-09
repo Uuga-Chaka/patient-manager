@@ -1,0 +1,56 @@
+{
+    "usuarios": {
+        "1112230054": {
+            "_id": "1112230054",
+            "nombre": "Juan Pablo Gallego Arias",
+            "fecha_nacimiento": "17-10-1996",
+            "sesion": [271928, 271921],
+            "id_number": 29703672
+        },
+        "29703672": {
+            "_id": "29703672",
+            "nombre": "Olga Lucia Arias Arias",
+            "fecha_nacimiento": "17-10-1996",
+            "sesion": [271928, 271921],
+            "id_number": 29703672
+        }
+    },
+    "user_sesion": {
+        "271928": {
+            "start_date": "17-10-2019",
+            "last_date": "22-12-2019",
+            "user_sesion_id": "271928",
+            "total_sesions": "10",
+            "id_sesions": [27122, 666666, 546789],
+            "diagnostico": [101, 102, 304]
+        },
+        "271921": {
+            "start_date": "17-10-2019",
+            "last_date": "22-12-2019",
+            "user_sesion_id": "271921",
+            "total_sesions": "10",
+            "id_sesions": [27122, 666666, 546789],
+            "diagnostico": [101, 102, 304]
+        }
+    },
+    "sesions": {
+        "27122": {
+            "sesion_id": "27122",
+            "fecha": "17-oct-2019",
+            "descripción": "Lorem Ipsum Dolor sitamen..."
+        }
+    },
+    "tipo_diagnostico": {
+        "1": {
+            "_id": "1",
+            "tipo": "visual"
+        }
+    },
+    "diagnostico": {
+        "101": {
+            "id": "101",
+            "id_tipo_diagnostico": "1",
+            "descripcion": "Ojo bailarín"
+        }
+    }
+}
