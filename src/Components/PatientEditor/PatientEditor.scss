@@ -20,6 +20,7 @@
             border: 1px solid transparent;
             outline: none;
             color: #3F4F58;
+            font-size: 14px;
 
             &:hover {
                 box-sizing: border-box;
@@ -38,7 +39,7 @@
         }
 
         #nombre {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 900;
             outline: none;
         }
@@ -60,6 +61,7 @@
                 resize: none;
                 width: 100%;
                 padding: 14px;
+                font-size: 14px;
                 height: 100%;
                 outline: none;
             }
@@ -68,12 +70,12 @@
         .editor-sesions {
             flex-basis: 40%;
             box-sizing: border-box;
-
+            padding: 4px;
+            
             .editor-sintoms {
                 border-bottom: 1px solid #B3CFE2;
                 box-sizing: border-box;
                 padding: 4px;
-                margin: 4px;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -86,7 +88,7 @@
                     p {
                         color: white;
                         display: inline;
-                        font-size: 13px;
+                        font-size: 14px;
                     }
 
                     .editor-sintom-tag {
@@ -104,6 +106,42 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                border-radius: 4px 4px 0 0;
+                box-sizing: border-box;
+                margin-top: 4px;
+                box-shadow: 0 4px 8px #d0d0d0;
+
+                p {
+                    font-size: 13px;
+                    padding: 3px;
+                    margin: 3px;
+                }
+
+                .editor-visual-quantity {
+                    box-sizing: border-box;
+                    padding: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    flex: 1 1 auto;
+                    box-sizing: border-box;
+
+                    .editor-visual-q {
+                        margin: 1px;
+                        height: 6px;
+                        background-color: green;
+                        flex-grow: 1;
+
+                        &:first-child {
+                            border-radius: 200px 0 0 200px;
+                        }
+
+                        &:last-child {
+                            border-radius: 0 200px 200px 0;
+                        }
+                    }
+                }
             }
         }
     }
