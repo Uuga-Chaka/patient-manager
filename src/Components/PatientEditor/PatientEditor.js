@@ -51,6 +51,16 @@ export default class PatientEditor extends Component {
                             </div>
                             <p>3/8</p>
                         </div>
+                        <div className="editor-sesions-descriptions">
+                            <div className="sesion-description">
+                                <div className="sesion-description__header">
+                                    <input type="date" />
+                                    <p className="sesion-number">Sesión #1</p>
+                                </div>
+                                <textarea className="sesion-text"></textarea>
+                                <div className="sesion-description-options">+</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
