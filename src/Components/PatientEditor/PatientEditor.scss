@@ -71,7 +71,7 @@
             flex-basis: 40%;
             box-sizing: border-box;
             padding: 4px;
-            
+
             .editor-sintoms {
                 border-bottom: 1px solid #B3CFE2;
                 box-sizing: border-box;
@@ -141,6 +141,61 @@
                             border-radius: 0 200px 200px 0;
                         }
                     }
+                }
+            }
+
+            .editor-sesions-descriptions {
+                display: flex;
+                flex-direction: column;
+
+                .sesion-description {
+                    box-sizing: border-box;
+
+                    .sesion-description__header {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: white;
+                        border-bottom: 1px solid #CDCDCD;
+                        border-radius: 4px 4px 0 0;
+
+                        input {
+                            background: none;
+                            border: none;
+                            border-radius: 4px;
+                            padding: 2px;
+                            margin: 2px;
+                            border: 1px solid transparent;
+                            outline: none;
+                            color: #AFAFAF;
+                            font-size: 13px;
+                            align-items: center;
+
+                            &:hover {
+                                box-sizing: border-box;
+                                border: 1px solid rgba(128, 128, 128, 0.3);
+                            }
+
+                        }
+
+                        .sesion-number {
+                            font-size: 13px;
+                            color: #AFAFAF;
+                        }
+                    }
+
+                    .sesion-text {
+                        box-sizing: border-box;
+                        resize: none;
+                        border: none;
+                        border-radius: 4px 4px 0 0;
+                        width: 100%;
+                        padding: 14px;
+                        font-size: 14px;
+                        outline: none;
+                    }
+
                 }
             }
         }
